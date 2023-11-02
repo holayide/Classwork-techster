@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container {
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    width: 300px;
+    margin: 70px auto 0;
+}
+h1{
+    font-size: 30px;
+    padding-bottom: 5px;
+}
+img {
+    width: 80%;
+    border: 1px solid rgb(189, 188, 193,255);
+    border-radius: 10px;
+    margin: 25px 0;
+}
+/* work on */
+.code {
+    font-size: 12px;
+    padding-bottom: 15px;
+    position: relative;
+}
+.code::before, .code::after {
+    content: "";
+    display: block;
+    width: 20%;
+    height: 2px;
+    background-color: #cccad3;
+    position: absolute;
+    top: 7px;
+}
+.code::before {
+    left: 0;
+}
+.code::after {
+    right: 0;
+}
+/* stop */
+p {
+    color: rgb(189, 188, 193,255);
+}
+.inner-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+input {
+    width: 88%;
+    border: 1px solid #bdbcc1;
+    padding: 12px 0 6px 5px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.icon {
+    width: 10%;
+    border: 1px solid #bdbcc1;
+    border-radius: 5px;
+}
+.inner-box svg {
+    width: 21px;
+    padding: 1px 2px;
+    transform: rotate();
+}
+.but2 {
+    background-color: green;
+    color: white;
+    width: 100%;
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+    margin-top: 20px;
+} 
+
